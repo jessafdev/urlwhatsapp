@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de enlances whatsapp</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="col">
+            <div class="content-text">
+                <div>
+                    <span>GENERADOR DE ENLACES PARA WHATSAPP</span>
+                    <p>Genera fácil un enlace personalizado de WhatsApp con un mensaje personalizado y compártelo con tu audiencia en tus redes sociales</p>
+                    <span class="author">Desarrollado por <a href="">Jhon Saldarriaga</a></span>
+                </div>
+            </div>
+            <div class="content-form">
+                <form>
+                    <label>¿Cual es tu telefono?</label>
+                    <input id="idtelphone" type="text" placeholder="Ej: 57555555555">
+                    <span>Recuerda poner el código de tu pais
+                        Ej: Para Colombia seria 57.</span>
+                    <label>¿Que mensaje personalizado quieres enviar cuando tus clientes te contacten?</label>
+                    <input id="idtextmessaje" type="text" placeholder="Hola">
+                    <button id="eventlink" type="button">Generar enlance</button>
+                    <span id="texterror">Hay campos requeridos</span>
+                    <div class="content-url" id="urlgene">
+                        <input type="text" id="texturl">
+                        <button id="copylink" type="button">Copiar Url</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
